@@ -1,7 +1,7 @@
 const pageValues = {
     rotationDegree: 0,
     direction: 'up',
-    pageOrder: ['home', 'projects', 'projects2', 'projects3', 'projects4'],
+    pageOrder: ['about', 'skills', 'projects2', 'projects3', 'projects4'],
     logStyles: [
         'background: linear-gradient(45deg, #F800FF 0%, #3100FF 100%)'
         , 'color: white'
@@ -15,7 +15,6 @@ const pageValues = {
         , 'font-weight: bold'
     ].join(';')
 };
-
 
 
 
@@ -223,7 +222,6 @@ const myFullpage = new fullpage('#fullpage', {
     navigationPosition: 'left',
     loopHorizontal: false,
     scrollingSpeed: 700,
-    responsiveWidth: 800,
     onLeave: function(origin, destination, direction){
         if (!document.querySelector(domStrings.rightMenu).classList.contains('menu-full')) {
             pageMethods.spinMenu();
