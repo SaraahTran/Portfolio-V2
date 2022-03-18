@@ -222,6 +222,7 @@ const myFullpage = new fullpage('#fullpage', {
     navigationPosition: 'left',
     loopHorizontal: false,
     scrollingSpeed: 700,
+    responsiveWidth: 800,
     onLeave: function(origin, destination, direction){
         if (!document.querySelector(domStrings.rightMenu).classList.contains('menu-full')) {
             pageMethods.spinMenu();

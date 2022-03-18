@@ -56,7 +56,7 @@ body {
   width: 50%;
   float: left;
   margin: auto 0;
-  padding: 30px;
+  padding: 50px;
   vertical-align: middle;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,6 +94,21 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   z-index: -1;
+  -ms-flex-preferred-size: 49%;
+      flex-basis: 49%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 15px;
+  text-align: center;
+  vertical-align: center;
+  height: 100%;
+  margin: auto 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 h1,
@@ -116,6 +131,10 @@ p {
   font-weight: 400;
   letter-spacing: -0.1vw;
   font-size: 10px;
+}
+
+h2 {
+  padding-bottom: 10px;
 }
 
 /*Text*/
@@ -201,7 +220,7 @@ highlight:hover {
 }
 
 .right-image2 {
-  width: 500px;
+  width: 300px;
   z-index: 20;
 }
 
@@ -689,7 +708,6 @@ highlight:hover {
   position: absolute;
   font-family: sans-serif;
   bottom: 0;
-  right: -25px;
   padding: 5px 7px;
   z-index: 100;
   font-size: 14px;
@@ -711,7 +729,6 @@ highlight:hover {
   border-top: 5px solid lightgrey;
   position: absolute;
   bottom: -5px;
-  left: 40px;
 }
 
 /* text pops up when icon is in hover state */
@@ -1812,8 +1829,8 @@ html {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   overflow: visible;
   margin-left: auto;
   margin-right: auto;
@@ -1823,9 +1840,10 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   justify-content: center;
+  z-index: 999;
 }
 
 .mf-social-side-list ul {
@@ -2044,11 +2062,11 @@ header .nav-toggle .small {
 
 header nav {
   background: #eeeeee;
-  display: none;
   font-family: "Poppins", sans-serif;
   position: relative;
   position: relative;
   text-align: center;
+  display: none;
   width: 100%;
   top: 30px;
 }
@@ -2080,10 +2098,6 @@ header nav li {
   header nav li:nth-child(3) {
     margin-right: 0;
   }
-}
-
-header nav li .small {
-  display: none;
 }
 
 @media (min-width: 700px) {
@@ -2126,7 +2140,15 @@ header nav a:hover {
     display: none;
   }
   right-col {
-    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    width: 100% !important;
+    float: none;
   }
   div.section p {
     font-size: 12px;
@@ -2164,11 +2186,11 @@ header nav a:hover {
 
 @media screen and (max-width: 1000px) {
   .right-image2 {
-    width: 300px;
+    width: 200px;
     z-index: 20;
   }
   .right-image {
-    width: 300px;
+    width: 200px;
     z-index: 20;
   }
   .work-image {
@@ -2188,7 +2210,6 @@ header nav a:hover {
   width: 90%;
   max-width: 600px;
   margin: auto;
-  border: 1px solid lightgrey;
   padding: 20px;
   overflow: hidden;
 }
@@ -2283,7 +2304,11 @@ header nav a:hover {
   .column:nth-child(3) {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    background: red;
+  }
+  .half-column {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    width: 100% !important;
   }
 }
 
@@ -2300,6 +2325,11 @@ header nav a:hover {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .half-column {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+    width: 100% !important;
   }
   .column:nth-child(1) {
     -ms-flex-preferred-size: 100%;
@@ -2322,7 +2352,6 @@ header nav a:hover {
 .container1 {
   border: 1px solid #ccc;
   width: 70%;
-  padding: 5px 5px 2.5px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2336,9 +2365,7 @@ header nav a:hover {
 }
 
 .container2 {
-  border: 1px solid #ccc;
-  width: 70%;
-  padding: 2.5px 5px 2.5px 5px;
+  width: 90%;
   border-top: hidden;
   border-bottom: hidden;
   -webkit-box-align: start;
@@ -2352,25 +2379,6 @@ header nav a:hover {
   display: flex;
 }
 
-.container3 {
-  border: 1px solid #ccc;
-  width: 70%;
-  padding: 2.5px 5px 5px 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-top: hidden;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
 .header {
   border: 1px solid #ccc;
   -webkit-box-flex: 1;
@@ -2380,9 +2388,35 @@ header nav a:hover {
 }
 
 .column {
-  border: 1px solid #ccc;
+  border: 2px solid #524943;
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 15px;
+  text-align: center;
+  vertical-align: center;
+  height: 100%;
+  width: 100%;
+  margin: auto 0;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.half-column {
+  border: 2px solid #524943;
+  -ms-flex-preferred-size: 49%;
+      flex-basis: 49%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 15px;
@@ -2408,11 +2442,24 @@ header nav a:hover {
   text-align: center;
 }
 
-.column:nth-child(odd) {
-  background: #F0EEEF;
+nav {
+  width: 100%;
 }
 
-.jumbotron {
+.textbox {
+  margin-left: 20px !important;
   position: relative;
+  border: 2px solid black;
+  padding: 20px;
+  background: white;
+}
+
+.thumbnail {
+  width: 70%;
+  overflow: hidden;
+}
+
+.design-description {
+  text-align: left !important;
 }
 /*# sourceMappingURL=style.css.map */
