@@ -147,7 +147,7 @@ div.section h1 {
 }
 
 div.section h3 {
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-weight: 600;
   padding: 10px;
   max-width: 55vw;
@@ -2207,10 +2207,9 @@ header nav a:hover {
 
 .wg-box-content {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 600px;
   margin: auto;
-  padding: 20px;
   overflow: hidden;
 }
 
@@ -2275,7 +2274,7 @@ header nav a:hover {
 }
 
 #homeSection, #aboutSection {
-  background: #f8f4f4;
+  background: #eef0f8;
 }
 
 @media (max-width: 980px) {
@@ -2388,7 +2387,6 @@ header nav a:hover {
 }
 
 .column {
-  border: 2px solid #524943;
   -ms-flex-preferred-size: 33%;
       flex-basis: 33%;
   -webkit-box-sizing: border-box;
@@ -2399,7 +2397,6 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   margin: auto 0;
-  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2414,7 +2411,6 @@ header nav a:hover {
 }
 
 .half-column {
-  border: 2px solid #524943;
   -ms-flex-preferred-size: 49%;
       flex-basis: 49%;
   -webkit-box-sizing: border-box;
@@ -2422,10 +2418,8 @@ header nav a:hover {
   padding: 0 15px;
   text-align: center;
   vertical-align: center;
-  height: 100%;
   width: 100%;
   margin: auto 0;
-  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
