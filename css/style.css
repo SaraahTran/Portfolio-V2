@@ -215,9 +215,9 @@ highlight:hover {
 }
 
 .right-image {
-  width: 620px;
+  width: 600px;
   z-index: 20;
-} 
+}
 
 .page-image {
   width: 700px;
@@ -2293,6 +2293,7 @@ header nav a:hover {
 
 .grey-text {
   color: #9b9b9b !important;
+  text-align: right !important;
 }
 
 @media (max-width: 980px) {
@@ -2469,6 +2470,12 @@ nav {
 .thumbnail {
   width: 70%;
   overflow: hidden;
+}
+
+.website-image {
+  width: 70%;
+  overflow: hidden;
+  border: 1px solid lightgrey;
 }
 
 .design-description {

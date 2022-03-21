@@ -2127,6 +2127,7 @@ font-size: 7px;
 
     .grey-text{
       color: rgb(155, 155, 155)!important;
+      text-align: right!important;
     }
    //columns 
     
@@ -2269,6 +2270,12 @@ background: white;
 .thumbnail{
   width: 70%;
 overflow: hidden;
+}
+
+.website-image{
+  width: 70%;
+  overflow: hidden;
+  border: 1px solid lightgrey;
 }
 
 .design-description{
