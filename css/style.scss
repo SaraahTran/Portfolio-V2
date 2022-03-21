@@ -200,6 +200,15 @@ transition: all 0.5s;
     z-index: 20;
   }
 
+  .page-image{
+    width: 700px;
+    border: 1px solid lightgrey;
+    margin: 10px;
+  }
+
+  .phone-image{
+    width: 300px;
+  }
   .right-image2{
     width: 300px;
     z-index: 20;
@@ -1446,6 +1455,7 @@ margin-bottom: 20px;
     div.section h3 {
       font-size: 2vw;
       max-width: 55vw;
+      margin: 20px;
     }
   
     #workSection .slide ul li {
@@ -2013,6 +2023,11 @@ font-size: 7px;
       z-index: 20;
     }
 
+    .page-image{
+      width: 100%;
+    }
+
+
     .right-image{
       width: 200px;
       z-index: 20;
@@ -2110,6 +2125,9 @@ font-size: 7px;
       background: #eef0f8;
     }
 
+    .grey-text{
+      color: rgb(155, 155, 155)!important;
+    }
    //columns 
     
 @media (max-width: 980px) {
@@ -2254,5 +2272,11 @@ overflow: hidden;
 }
 
 .design-description{
+  text-align: left!important;
+  float: left;
+}
+
+
+.left{
   text-align: left!important;
 }
