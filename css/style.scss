@@ -2055,7 +2055,11 @@ font-size: 7px;
       max-width: 600px;
       margin: auto;
       overflow: hidden;
+     
     }
+      
+     
+    
     
     .wg-box-content .wg-box-content-overlay {
       background: rgba(0, 0, 0, 0.7);
@@ -2077,6 +2081,8 @@ font-size: 7px;
     
     .wg-box-content-image {
       width: 100%;
+      box-shadow: 0 3px 6px rgba(141, 141, 141, 0.16), 0 3px 6px rgba(145, 145, 145, 0.23);
+
     }
     
     .wg-box-content-details {

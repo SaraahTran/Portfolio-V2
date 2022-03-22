@@ -1,7 +1,7 @@
 const pageValues = {
     rotationDegree: 0,
     direction: 'up',
-    pageOrder: ['home', 'projects', 'projects2', 'projects3', 'projects4'],
+    pageOrder: ['home', 'projects', 'projects2', 'about', 'projects4'],
     logStyles: [
         'background: linear-gradient(45deg, #F800FF 0%, #3100FF 100%)'
         , 'color: white'
