@@ -230,7 +230,7 @@ highlight:hover {
 }
 
 .right-image2 {
-  width: 300px;
+  width: 400px;
   z-index: 20;
 }
 
@@ -1141,6 +1141,7 @@ html.fp-enabled,
 .fp-slidesNav ul li:hover a.active span {
   height: 18px;
   width: 18px;
+  background: #A3A7CE;
   margin: -9px 0 0 -9px;
   border-radius: 100%;
 }
