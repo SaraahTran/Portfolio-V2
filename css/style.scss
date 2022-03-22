@@ -2137,7 +2137,7 @@ font-size: 7px;
     }
    //columns 
     
-@media (max-width: 980px) {
+@media (max-width: 1200px) {
   .container2 {
     display: flex;
     justify-content: space-between;
@@ -2278,11 +2278,7 @@ background: white;
 overflow: hidden;
 }
 
-.website-image{
-  width: 70%;
-  overflow: hidden;
-  border: 1px solid lightgrey;
-}
+
 
 .design-description{
   text-align: left!important;

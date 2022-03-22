@@ -2298,7 +2298,7 @@ header nav a:hover {
   text-align: right !important;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1200px) {
   .container2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2472,12 +2472,6 @@ nav {
 .thumbnail {
   width: 70%;
   overflow: hidden;
-}
-
-.website-image {
-  width: 70%;
-  overflow: hidden;
-  border: 1px solid lightgrey;
 }
 
 .design-description {
