@@ -362,13 +362,7 @@ transition: all 0.5s;
   /*Skills*/
 
   #skillsSection{
-  
-  .column {
-    padding: 10px;
-    width: 100%;
-    float: left;
-    width: 50%;
-  }
+
   
   .tile{
     border: 1px solid lightgrey;
@@ -2138,23 +2132,7 @@ font-size: 7px;
     }
    //columns 
     
-@media (max-width: 1200px) {
-  .container2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .column:nth-child(1) {
-    flex-basis: 49.5%;
-  }
-  .column:nth-child(2) {
-    flex-basis: 49.5%;
-    margin-bottom: 1%;
-  }
-  .column:nth-child(3) {
-    flex-basis: 100%;
-  }
+
 
 
   .half-column{
@@ -2162,7 +2140,7 @@ font-size: 7px;
     width: 100%!important;
   }
 
-}
+
 
 @media (max-width: 680px) {
   .container2 {
