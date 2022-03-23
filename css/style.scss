@@ -11,12 +11,13 @@
     background: transparent;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
   }
 
   body {
     margin: 0;
     overflow-x: hidden;
-    font-family: "Neutra-Light", sans-serif;
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     background-color: #fff;
   }
@@ -93,10 +94,10 @@
   h4,
   h5,
   h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     margin: 0px auto;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
   }
   p {
     font-family: 'Gilroy', monospace;
@@ -113,12 +114,13 @@
   }
   /*Text*/
   div.section {
+    font-family: 'Gilroy', sans-serif!important;
        h1 {
     font-size: 3.5vw!important;
     max-width: 55vw;
     letter-spacing: 2px;
     color: #524943;
-    font-family: 'Century Gothic', sans-serif;
+
   }
   
 h3 {
