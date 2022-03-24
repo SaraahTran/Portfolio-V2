@@ -2335,6 +2335,7 @@ header nav a:hover {
   }
   .column {
     height: 200px !important;
+    margin-bottom: 20px;
   }
 }
 
@@ -2354,12 +2355,12 @@ header nav a:hover {
 }
 
 .container2 {
-  width: 90%;
+  width: 70%;
   border-top: hidden;
   border-bottom: hidden;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -2445,7 +2446,6 @@ nav {
 
 .design-description {
   text-align: left !important;
-  float: left;
 }
 
 .left {
