@@ -48,7 +48,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
 }
 
 .left-col {
@@ -2446,9 +2445,30 @@ nav {
 
 .design-description {
   text-align: left !important;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .left {
   text-align: left !important;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #F4F5FF;
+  color: #A3A7CE !important;
+  font-size: 15px !important;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.tag {
+  background: whitesmoke;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
